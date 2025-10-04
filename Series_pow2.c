@@ -10,8 +10,8 @@ int main()
     printf("Series: ");
     for (i = 1; i <= n; i++)
     { 
-        z = (int)pow(2, i);   // compute 2^i
-        printf("%d ", z);     // print each term immediately
+        z = (int)pow(2, i);   
+        printf("%d ", z);    
     }
 
     return 0;
